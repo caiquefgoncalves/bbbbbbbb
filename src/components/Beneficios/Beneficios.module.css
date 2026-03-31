@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    font-family: 'Inter', sans-serif ;
+}
+.secao{
+    min-height: 38rem;
+    padding: 2rem;
+    background-color: #0C598B;
+
+}
+
+
+.titulo{
+    font-size: 2.3rem;
+    color: white;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+
+}
+
+.organizarcards{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.botao{
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+}
+
+@media(max-width:321px){
+    .titulo{
+        margin-left: 0.5rem;
+    }
+    .botao{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+}

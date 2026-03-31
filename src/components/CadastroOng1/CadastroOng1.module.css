@@ -1,0 +1,19 @@
+.cadastroOng1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.imagem{
+    width: 30rem;
+}

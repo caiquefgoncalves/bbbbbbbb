@@ -1,0 +1,29 @@
+.organizar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+@media(max-width:769px){
+    .secao{
+        background-color: #167CBF;
+    }
+    .organizar{
+        margin-top: 0;
+        padding-top: 4rem;
+    }
+    .formulario {
+        display: block;
+    }
+
+}
+
